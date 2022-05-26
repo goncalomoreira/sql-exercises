@@ -1,23 +1,23 @@
 insert into student(name,firstname,dateofbirth,street,postalcod,city)
 values
-('Dupont','Raphael','1989-09-27','Rue Bonnefoi','69003','Lyon'),
-('Durand','Antoine','1989-10-18','57-53 Bd Gabriel Lauriol','44300','Nantes'),
-('Martin','Gabriel','1989-01-03','21 Rue Hippolyte','34000','Montpellier'),
-('Beaumont','Juliette','1989-07-11','52-58 Rue du Dr Cauvin','13012','Marseille'),
-('Auclair','Louise','1989-04-18','4 Rue de la Pellerine','45000','Orléans'),
-('Auclair','Pauline','1989-05-31','4 Rue de la Pellerine','45000','Orléans'),
-('Aguillard','Charles','1989-03-14','32 Rue Dorigny','51100','Reims');
+('Dupont','Rafael','1991-09-17','Rue do Bonfim','69003','Lyon'),
+('Durand','André','1991-10-08','57-53 Afonso Henriques','44300','Nantes'),
+('Martin','João','1991-01-13','21 Rue Histórica de Braga','34000','Montpellier'),
+('Monforte','Joana','1991-07-01','52-58 Rue da chavinha','13012','Marseille'),
+('Andrade','Carolina','1991-04-28','4 Rue das covas altas','45000','Orléans'),
+('Guimarães','Paulo','1991-05-21','4 Rue do sem abrigo','45000','Orléans'),
+('Aguiar','Gonzalo','1991-03-30','32 Rue duran','51100','Reims');
 
 insert into matter(codemat,wording,coef)
 values
-('math','Mathématiques',2),
-('hist','Histoire',1),
-('arts','Arts',1);
+('math','Mathmatics',2),
+('hist','History',1),
+('arts','Arts',3);
 
 insert into test(testdate,place,codemat)
 values
 ('2014-01-01','Room 1','math'),
-('2014-01-01','Room 1','arts'),
+('2014-01-01','Room 2','arts'),
 ('2014-01-01','Room 3','hist'),
 ('2014-01-01','Room 4','arts'),
 ('2014-01-01','Room 5','math');
